@@ -17,7 +17,7 @@
 #   puts phrase
 #   break if i == number_of_times
 # end
-# end
+end
 
 puts loop_iterator(7)
 
