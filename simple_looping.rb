@@ -49,9 +49,14 @@ end
 
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
-def until_iterator(number_of_times)
 
+def until_iterator(number_of_times)
+i = 0
   phrase = "Welcome to Flatiron School's Web Development Course!"
+  until i == number_of_times
+  puts phrase
+  i += 1
+end
 
 end
 
